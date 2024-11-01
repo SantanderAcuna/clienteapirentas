@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <nav class="navbar navbar-expand navbar bg-primary text-white">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">Gestio de Peticiones Rentas</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
@@ -38,5 +38,7 @@
       </div>
     </div>
   </nav>
-  <router-view />
+  <div class="container-fluid">
+    <router-view />
+  </div>
 </template>
